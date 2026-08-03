@@ -1,0 +1,24 @@
+{
+	"Name" : "AutoRequeue",
+	"Description" : "",
+	"LoadPriority": 1,
+	"Version": "1.0.0",
+
+"Scripts": [
+			{
+			 "Path": "Matchmake.nut",
+             "RunOn": "CLIENT && !SP",
+			 "ClientCallback": {
+				"After": "Matchmake_Init"
+				}
+			}
+		
+    	],
+	"ConVars": [
+		
+	
+		
+
+	
+	]
+}
