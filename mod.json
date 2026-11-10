@@ -1,15 +1,15 @@
 {
-	"Name" : "AutoRequeue",
+	"Name" : "MatchmakingEssentials",
 	"Description" : "",
 	"LoadPriority": 1,
 	"Version": "1.0.0",
 
 "Scripts": [
 			{
-			 "Path": "Matchmake.nut",
+			 "Path": "MatchmakingEssentials.nut",
              "RunOn": "CLIENT && !SP",
 			 "ClientCallback": {
-				"After": "Matchmake_Init"
+				"After": "MatchmakingEssentials_Init"
 				}
 			}
 		
